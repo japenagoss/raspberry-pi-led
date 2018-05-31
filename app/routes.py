@@ -18,6 +18,6 @@ def open():
     GPIO.output(17, True)
     time.sleep(2);
     GPIO.output(17, False)
-    print "Works"
+    print("Works")
     GPIO.cleanup()
-    print "Good bye!"
+    print("Good bye!")

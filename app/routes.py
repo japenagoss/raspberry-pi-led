@@ -19,4 +19,4 @@ def open():
     time.sleep(2);
     GPIO.output(17, False)
     GPIO.cleanup()
-    return True;
+    return True
